@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{606B6D2B-9FAD-4499-BDB3-EBC1ABB5CB0F}|Task2Exam.csproj|c:\\users\\asus\\desktop\\test github\\c\u002B\u002B oop m15 project\\c-task2-project---quiz\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606B6D2B-9FAD-4499-BDB3-EBC1ABB5CB0F}|Task2Exam.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606B6D2B-9FAD-4499-BDB3-EBC1ABB5CB0F}|Task2Exam.csproj|c:\\users\\asus\\desktop\\test github\\c\u002B\u002B oop m15 project\\c-task2-project---quiz\\iomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606B6D2B-9FAD-4499-BDB3-EBC1ABB5CB0F}|Task2Exam.csproj|solutionrelative:iomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606B6D2B-9FAD-4499-BDB3-EBC1ABB5CB0F}|Task2Exam.csproj|c:\\users\\asus\\desktop\\test github\\c\u002B\u002B oop m15 project\\c-task2-project---quiz\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606B6D2B-9FAD-4499-BDB3-EBC1ABB5CB0F}|Task2Exam.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606B6D2B-9FAD-4499-BDB3-EBC1ABB5CB0F}|Task2Exam.csproj|c:\\users\\asus\\desktop\\test github\\c\u002B\u002B oop m15 project\\c-task2-project---quiz\\quiz\\takequiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606B6D2B-9FAD-4499-BDB3-EBC1ABB5CB0F}|Task2Exam.csproj|solutionrelative:quiz\\takequiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606B6D2B-9FAD-4499-BDB3-EBC1ABB5CB0F}|Task2Exam.csproj|c:\\users\\asus\\desktop\\test github\\c\u002B\u002B oop m15 project\\c-task2-project---quiz\\quiz\\quizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606B6D2B-9FAD-4499-BDB3-EBC1ABB5CB0F}|Task2Exam.csproj|solutionrelative:quiz\\quizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606B6D2B-9FAD-4499-BDB3-EBC1ABB5CB0F}|Task2Exam.csproj|c:\\users\\asus\\desktop\\test github\\c\u002B\u002B oop m15 project\\c-task2-project---quiz\\quiz\\quizcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606B6D2B-9FAD-4499-BDB3-EBC1ABB5CB0F}|Task2Exam.csproj|solutionrelative:quiz\\quizcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606B6D2B-9FAD-4499-BDB3-EBC1ABB5CB0F}|Task2Exam.csproj|c:\\users\\asus\\desktop\\test github\\c\u002B\u002B oop m15 project\\c-task2-project---quiz\\quiz\\quizcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606B6D2B-9FAD-4499-BDB3-EBC1ABB5CB0F}|Task2Exam.csproj|solutionrelative:quiz\\quizcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606B6D2B-9FAD-4499-BDB3-EBC1ABB5CB0F}|Task2Exam.csproj|c:\\users\\asus\\desktop\\test github\\c\u002B\u002B oop m15 project\\c-task2-project---quiz\\quiz\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606B6D2B-9FAD-4499-BDB3-EBC1ABB5CB0F}|Task2Exam.csproj|solutionrelative:quiz\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606B6D2B-9FAD-4499-BDB3-EBC1ABB5CB0F}|Task2Exam.csproj|c:\\users\\asus\\desktop\\test github\\c\u002B\u002B oop m15 project\\c-task2-project---quiz\\quiz\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606B6D2B-9FAD-4499-BDB3-EBC1ABB5CB0F}|Task2Exam.csproj|solutionrelative:quiz\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606B6D2B-9FAD-4499-BDB3-EBC1ABB5CB0F}|Task2Exam.csproj|c:\\users\\asus\\desktop\\test github\\c\u002B\u002B oop m15 project\\c-task2-project---quiz\\menu\\adminconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606B6D2B-9FAD-4499-BDB3-EBC1ABB5CB0F}|Task2Exam.csproj|solutionrelative:menu\\adminconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IOManager.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\IOManager.cs",
+              "RelativeDocumentMoniker": "IOManager.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\IOManager.cs",
+              "RelativeToolTip": "IOManager.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAmwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T10:44:37.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\Admin.cs",
+              "RelativeDocumentMoniker": "Admin.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\Admin.cs",
+              "RelativeToolTip": "Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T10:44:33.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TakeQuiz.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\Quiz\\TakeQuiz.cs",
+              "RelativeDocumentMoniker": "Quiz\\TakeQuiz.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\Quiz\\TakeQuiz.cs",
+              "RelativeToolTip": "Quiz\\TakeQuiz.cs",
+              "ViewState": "AQIAALAAAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T10:44:19.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuizResult.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\Quiz\\QuizResult.cs",
+              "RelativeDocumentMoniker": "Quiz\\QuizResult.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\Quiz\\QuizResult.cs",
+              "RelativeToolTip": "Quiz\\QuizResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T10:44:13.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QuizControl.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\Quiz\\QuizControl.cs",
+              "RelativeDocumentMoniker": "Quiz\\QuizControl.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\Quiz\\QuizControl.cs",
+              "RelativeToolTip": "Quiz\\QuizControl.cs",
+              "ViewState": "AQIAALkAAAAAAAAAAAAuwL4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T10:43:43.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuizCategory.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\Quiz\\QuizCategory.cs",
+              "RelativeDocumentMoniker": "Quiz\\QuizCategory.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\Quiz\\QuizCategory.cs",
+              "RelativeToolTip": "Quiz\\QuizCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T10:43:41.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\Quiz\\Question.cs",
+              "RelativeDocumentMoniker": "Quiz\\Question.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\Quiz\\Question.cs",
+              "RelativeToolTip": "Quiz\\Question.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T10:43:38.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Answer.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\Quiz\\Answer.cs",
+              "RelativeDocumentMoniker": "Quiz\\Answer.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\Quiz\\Answer.cs",
+              "RelativeToolTip": "Quiz\\Answer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T10:43:37.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminConsole.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\Menu\\AdminConsole.cs",
+              "RelativeDocumentMoniker": "Menu\\AdminConsole.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\Menu\\AdminConsole.cs",
+              "RelativeToolTip": "Menu\\AdminConsole.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T10:43:32.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Test GitHub\\C\u002B\u002B OOP M15 Project\\C-Task2-Project---Quiz\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T10:43:25.577Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

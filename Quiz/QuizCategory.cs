@@ -17,9 +17,5 @@ namespace DemoJson
         }
         public List<Question> Questions { get; set; } = new List<Question>();
 
-        public void DisplayCategory()
-        {
-            Console.WriteLine("Category: {0}", QuizName);
-        }
     }
 }

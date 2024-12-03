@@ -22,7 +22,7 @@ namespace Task2Exam
             
             List<QuizCategory> categories = GetCategories();
 
-            if (categories.Any(c => c.QuizName.Equals(categoryName, StringComparison.OrdinalIgnoreCase)))
+            if (categories.Any(c => c.QuizName.Equals(categoryName, StringComparison.OrdinalIgnoreCase))) // "Math" and "math" would be considered equal ( StringComparison.OrdinalIgnoreCase)
             {
                 Console.WriteLine("Category already exist!");
             }
@@ -98,7 +98,6 @@ namespace Task2Exam
                                                       .Select(index => int.Parse(index.Trim()) - 1) 
                                                       .ToList();
 
-            // Check if any invalid indices were entered, such as an index greater than the number of answers
             if (correctAnswerIndices.Count != userInput.Split(',').Length || correctAnswerIndices.Any(index => index < 0 || index >= answers.Count))
             {
                 Console.WriteLine("Invalid correct answer indices. Please enter valid numbers within the range of available answers.");
@@ -107,17 +106,14 @@ namespace Task2Exam
             else
             {
 
-                // Assign the correct answers based on the valid indices
                 foreach (var index in correctAnswerIndices)
                 {
                     answers[index].IsCorrect = true;
                 }
 
-                // Create a new question and add it to the category
                 Question question = new Question(questionText, answers);
                 category.Questions.Add(question);
 
-                // Save the updated categories list to file
                 iOManager.WriteJson(filePath, categories);
 
                 Console.WriteLine("Question added successfully!");
