@@ -1,4 +1,4 @@
-﻿using DemoJson;
+﻿using Task2Exam;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,10 +11,13 @@ namespace Task2Exam
     {
         public void FirstMenu()
         {
-            Console.WriteLine("========= Welcome =========");
-            Console.WriteLine("1 ) Register As User");
-            Console.WriteLine("2 ) Login As User");
-            Console.WriteLine("3 ) Login As Admin");
+            Console.WriteLine("======================= Welcome =======================\n");
+            Console.WriteLine("1 ) Register As User\n");
+            Console.WriteLine("2 ) Login As User\n");
+            Console.WriteLine("3 ) Login As Admin\n");
+            Console.WriteLine("4 ) Exit\n");
+            Console.WriteLine("=======================================================\n");
+
             Console.Write("Enter Opt : ");
             string opt = Console.ReadLine();
             switch (opt)
@@ -22,6 +25,7 @@ namespace Task2Exam
                 case "1":Register(); break;
                 case "2":Login(); break;
                 case "3":LoginAsAdmin(); break;
+                case "4": break;
                 default: Console.Clear(); FirstMenu();  break;
             }
         }
@@ -30,7 +34,7 @@ namespace Task2Exam
             string input;
             do
             {
-                Console.WriteLine(prompt);
+                Console.Write(prompt);
                 input = Console.ReadLine();
                 if (string.IsNullOrWhiteSpace(input))
                     Console.WriteLine("Input cannot be empty. Please try again.");
@@ -40,25 +44,27 @@ namespace Task2Exam
         public void Register()
         {
             Console.Clear();
-            Console.WriteLine("========= Registration =========");
+            Console.WriteLine("======================= Registeration =======================");
             User user = new User();
 
 
-            string userName = GetValidInput("Enter Username : ");
-            string password = GetValidInput("Enter Password : ");
-            string DOB = GetValidInput("Enter DOB : ");
+            string userName = GetValidInput("\nEnter Username : ");
+            string password = GetValidInput("\nEnter Password : ");
+            string DOB = GetValidInput("\nEnter DOB : ");
 
             user.Register(userName, password, DOB);
-
+            Console.ReadLine();
+            Console.Clear();
             FirstMenu();
         }
 
         public void Login()
         {
-            Console.WriteLine("========= Login ========= ");
-            
-                string userName = GetValidInput("Enter Username : ");
-                string password = GetValidInput("Enter Password : ");
+            Console.Clear();
+            Console.WriteLine("=========================== User Login ===========================");
+
+            string userName = GetValidInput("\nEnter Username : ");
+                string password = GetValidInput("\nEnter Password : ");
             try
             {
                 IOManager oManager = new IOManager();
@@ -89,9 +95,11 @@ namespace Task2Exam
 
         public void LoginAsAdmin()
         {
-            
-            string userName = GetValidInput("Enter Username : ");
-            string password = GetValidInput("Enter Passowrd : ");
+            Console.Clear();
+            Console.WriteLine("=========================== Admin Login ===========================");
+
+            string userName = GetValidInput("\nEnter Username : ");
+            string password = GetValidInput("\nEnter Passowrd : ");
 
             Admin admin = new Admin();
             admin.Login(userName, password);
@@ -99,7 +107,7 @@ namespace Task2Exam
             {
                 Console.WriteLine("vv");
                 AdminConsole adminConsole = new AdminConsole();
-                adminConsole.Start();
+                adminConsole.Menu();
             }
             else
             {

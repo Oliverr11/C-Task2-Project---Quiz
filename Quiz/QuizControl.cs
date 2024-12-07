@@ -1,4 +1,4 @@
-﻿using DemoJson;
+﻿using Task2Exam;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -50,10 +50,11 @@ namespace Task2Exam
 
             Console.Write("Enter Question Text: ");
             string questionText = Console.ReadLine();
-
+            Console.WriteLine("\n");
             if (string.IsNullOrWhiteSpace(questionText))
             {
                 Console.WriteLine("Question text cannot be empty.");
+                Console.ReadLine();
                 return;
             }
 
@@ -62,6 +63,7 @@ namespace Task2Exam
             if (!int.TryParse(Console.ReadLine(), out numAnswers) || numAnswers <= 0)
             {
                 Console.WriteLine("Invalid number of answers.");
+                Console.ReadLine();
                 return;
             }
 
@@ -77,6 +79,7 @@ namespace Task2Exam
                     if (string.IsNullOrWhiteSpace(answerText))
                     {
                         Console.WriteLine("Answer text cannot be empty. Please enter a valid answer.");
+                        Console.ReadLine();
                     }
                 } while (string.IsNullOrWhiteSpace(answerText));
 
@@ -101,6 +104,8 @@ namespace Task2Exam
             if (correctAnswerIndices.Count != userInput.Split(',').Length || correctAnswerIndices.Any(index => index < 0 || index >= answers.Count))
             {
                 Console.WriteLine("Invalid correct answer indices. Please enter valid numbers within the range of available answers.");
+                Console.ReadLine();
+
                 return;
             }
             else
@@ -127,12 +132,11 @@ namespace Task2Exam
 
             categories = categories.Where(c => c.QuizName != "Mixed Quiz").ToList();
 
-            Console.Clear();
-            Console.WriteLine("======== Categories ========");
 
             for (int i = 0; i < categories.Count; i++)
             {
-                Console.WriteLine("{0}. {1}", i + 1, categories[i].QuizName);
+                Console.WriteLine("{0} ) {1}", i + 1, categories[i].QuizName);
+                Console.WriteLine("\n");
             }
         }
         public void ViewCategories()
@@ -140,12 +144,11 @@ namespace Task2Exam
             List<QuizCategory> categories = iOManager.ReadJson<List<QuizCategory>>(filePath);
 
 
-            Console.Clear();
-            Console.WriteLine("======== Categories ========");
 
             for (int i = 0; i < categories.Count; i++)
             {
                 Console.WriteLine("{0}. {1}", i + 1, categories[i].QuizName);
+                Console.WriteLine("\n");
             }
         }
 

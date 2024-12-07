@@ -1,11 +1,11 @@
 ﻿
-using DemoJson;
+using Task2Exam;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace DemoJson
+namespace Task2Exam
 {
     public class Question
     {

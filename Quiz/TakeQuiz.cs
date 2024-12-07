@@ -1,4 +1,4 @@
-﻿using DemoJson;
+﻿using Task2Exam;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -14,6 +14,11 @@ namespace Task2Exam
         private User currentUser;
         private IOManager iOManager;
 
+        public TakeQuiz()
+        {
+            iOManager = new IOManager();
+
+        }
         public TakeQuiz(string userName)
         {
             currentUserName = userName;
@@ -103,7 +108,7 @@ namespace Task2Exam
 
         public void StartSpecificQuiz()
         {
-
+            
                 List<QuizCategory> categories = iOManager.ReadJson<List<QuizCategory>>(filePath);
 
                 categories = categories.Where(c => c.QuizName != "Mixed Quiz").ToList();
@@ -124,10 +129,15 @@ namespace Task2Exam
                 }
                 QuizCategory selectedCategory = categories[categoryIndex];
 
+                Console.Clear();
+                Console.WriteLine("=========================== TAKE QUIZ ===========================\n");
+
+
                 Console.WriteLine("You selected: {0}", selectedCategory.QuizName);
 
                 var random = new Random();
-                var shuffledQuestions = selectedCategory.Questions.OrderBy(q => random.Next()).Take(10).ToList();
+                var shuffledQuestions = selectedCategory.Questions.OrderBy(q => random.Next()).Take(20).ToList();
+
 
                 StartQuizQuestions(shuffledQuestions, selectedCategory.QuizName);
 
@@ -150,7 +160,7 @@ namespace Task2Exam
             }
 
             var random = new Random();
-            var shuffledQuestions = allQuestions.OrderBy(q => random.Next()).Take(10).ToList();
+            var shuffledQuestions = allQuestions.OrderBy(q => random.Next()).Take(20).ToList();
 
             StartQuizQuestions(shuffledQuestions, "Mixed Quiz");
         }
@@ -166,7 +176,7 @@ namespace Task2Exam
             return userAnswers.Count == correctAnswers.Count && !userAnswers.Except(correctAnswers).Any();
         }
 
-        public void ViewTop20(string categoryName)
+        public void ViewTop20Base(string categoryName , bool includeCurrentUser = false)
         {
 
             List<QuizCategory> categories = iOManager.ReadJson<List<QuizCategory>>(filePath);
@@ -179,8 +189,6 @@ namespace Task2Exam
                     return;
                 }
             
-            Console.Clear();
-            Console.WriteLine("======= Top 20 =======");
                 List<User> users = iOManager.ReadAllUsers();
 
                 var allUsersWithScores = users.Select(user => new { userName = user.userName, score = user.GetScoreForCategory(categoryName) })
@@ -194,6 +202,8 @@ namespace Task2Exam
                     Console.WriteLine("{0} . {1} : {2} scores", rank, user.userName, user.score);
                     rank++;
                 }
+            if (includeCurrentUser)
+            {
                 var currentUserScore = allUsersWithScores.FirstOrDefault(u => u.userName == currentUser.userName);
 
                 if (currentUserScore.score == 0 || allUsersWithScores.IndexOf(currentUserScore) >= 20)
@@ -202,7 +212,17 @@ namespace Task2Exam
                     Console.WriteLine("...");
                     Console.WriteLine("{0}. {1} : {2} s", currentUserRank, currentUser.userName, currentUser.GetScoreForCategory(categoryName));
                 }
-         
+            }
+        }
+
+        public void ViewTop20(string categoryName)
+        {
+            ViewTop20Base(categoryName, includeCurrentUser: true);
+        }
+
+        public void ViewTop20Admin(string categoryName)
+        {
+            ViewTop20Base(categoryName, includeCurrentUser: false);
         }
         public void ViewPreviousQuiz()
         {

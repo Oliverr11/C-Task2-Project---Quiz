@@ -83,5 +83,10 @@ public class IOManager
 
         return users;
     }
+    public void DeleteUserFile(string userName)
+    {
+        string filePath = Path.Combine(userDataFolder, $"{userName}.json");
+        File.Delete(filePath);
+    }
 
 }

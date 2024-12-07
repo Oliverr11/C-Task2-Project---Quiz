@@ -675,27 +675,6 @@
             "IsCorrect": false
           }
         ]
-      },
-      {
-        "Text": "k",
-        "Answers": [
-          {
-            "Text": "1",
-            "IsCorrect": false
-          },
-          {
-            "Text": "2",
-            "IsCorrect": true
-          },
-          {
-            "Text": "3",
-            "IsCorrect": false
-          },
-          {
-            "Text": "4",
-            "IsCorrect": false
-          }
-        ]
       }
     ]
   },
@@ -703,5 +682,940 @@
     "QuizName": "Mixed Quiz",
     "Questions": [
     ]
+  },
+  {
+    "QuizName": "Math",
+    "Questions": [
+      {
+        "Text": "What is 7 + 9?",
+        "Answers": [
+          {
+            "Text": "15",
+            "IsCorrect": false
+          },
+          {
+            "Text": "16",
+            "IsCorrect": true
+          },
+          {
+            "Text": "17",
+            "IsCorrect": false
+          },
+          {
+            "Text": "18",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What is 15 - 8?",
+        "Answers": [
+          {
+            "Text": "6",
+            "IsCorrect": false
+          },
+          {
+            "Text": "7",
+            "IsCorrect": true
+          },
+          {
+            "Text": "8",
+            "IsCorrect": false
+          },
+          {
+            "Text": "9",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What is 12 × 6?",
+        "Answers": [
+          {
+            "Text": "68",
+            "IsCorrect": false
+          },
+          {
+            "Text": "72",
+            "IsCorrect": true
+          },
+          {
+            "Text": "78",
+            "IsCorrect": false
+          },
+          {
+            "Text": "80",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What is 56 ÷ 7?",
+        "Answers": [
+          {
+            "Text": "7",
+            "IsCorrect": true
+          },
+          {
+            "Text": "8",
+            "IsCorrect": false
+          },
+          {
+            "Text": "9",
+            "IsCorrect": false
+          },
+          {
+            "Text": "10",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What is the value of 3²?",
+        "Answers": [
+          {
+            "Text": "6",
+            "IsCorrect": false
+          },
+          {
+            "Text": "9",
+            "IsCorrect": true
+          },
+          {
+            "Text": "12",
+            "IsCorrect": false
+          },
+          {
+            "Text": "15",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What is 5³?",
+        "Answers": [
+          {
+            "Text": "125",
+            "IsCorrect": true
+          },
+          {
+            "Text": "150",
+            "IsCorrect": false
+          },
+          {
+            "Text": "200",
+            "IsCorrect": false
+          },
+          {
+            "Text": "250",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "Solve for x: 2x = 16",
+        "Answers": [
+          {
+            "Text": "x = 4",
+            "IsCorrect": true
+          },
+          {
+            "Text": "x = 6",
+            "IsCorrect": false
+          },
+          {
+            "Text": "x = 8",
+            "IsCorrect": false
+          },
+          {
+            "Text": "x = 10",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What is the square root of 49?",
+        "Answers": [
+          {
+            "Text": "6",
+            "IsCorrect": false
+          },
+          {
+            "Text": "7",
+            "IsCorrect": true
+          },
+          {
+            "Text": "8",
+            "IsCorrect": false
+          },
+          {
+            "Text": "9",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What is 1/4 + 3/4?",
+        "Answers": [
+          {
+            "Text": "1",
+            "IsCorrect": true
+          },
+          {
+            "Text": "3/2",
+            "IsCorrect": false
+          },
+          {
+            "Text": "1/2",
+            "IsCorrect": false
+          },
+          {
+            "Text": "2",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What is 5/6 – 1/3?",
+        "Answers": [
+          {
+            "Text": "1/2",
+            "IsCorrect": true
+          },
+          {
+            "Text": "1",
+            "IsCorrect": false
+          },
+          {
+            "Text": "2/3",
+            "IsCorrect": false
+          },
+          {
+            "Text": "3/6",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What is the perimeter of a rectangle with length 8 cm and width 5 cm?",
+        "Answers": [
+          {
+            "Text": "13 cm",
+            "IsCorrect": false
+          },
+          {
+            "Text": "26 cm",
+            "IsCorrect": true
+          },
+          {
+            "Text": "40 cm",
+            "IsCorrect": false
+          },
+          {
+            "Text": "50 cm",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What is the area of a triangle with base 10 cm and height 6 cm?",
+        "Answers": [
+          {
+            "Text": "30 cm²",
+            "IsCorrect": true
+          },
+          {
+            "Text": "60 cm²",
+            "IsCorrect": false
+          },
+          {
+            "Text": "20 cm²",
+            "IsCorrect": false
+          },
+          {
+            "Text": "25 cm²",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What is the sum of the interior angles of a triangle?",
+        "Answers": [
+          {
+            "Text": "180°",
+            "IsCorrect": true
+          },
+          {
+            "Text": "360°",
+            "IsCorrect": false
+          },
+          {
+            "Text": "270°",
+            "IsCorrect": false
+          },
+          {
+            "Text": "90°",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What is 9 × 8?",
+        "Answers": [
+          {
+            "Text": "70",
+            "IsCorrect": false
+          },
+          {
+            "Text": "72",
+            "IsCorrect": true
+          },
+          {
+            "Text": "74",
+            "IsCorrect": false
+          },
+          {
+            "Text": "76",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What is the value of 2 + 2 × 3?",
+        "Answers": [
+          {
+            "Text": "12",
+            "IsCorrect": false
+          },
+          {
+            "Text": "10",
+            "IsCorrect": true
+          },
+          {
+            "Text": "8",
+            "IsCorrect": false
+          },
+          {
+            "Text": "6",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What is 27 ÷ 3 × 2?",
+        "Answers": [
+          {
+            "Text": "14",
+            "IsCorrect": false
+          },
+          {
+            "Text": "18",
+            "IsCorrect": true
+          },
+          {
+            "Text": "20",
+            "IsCorrect": false
+          },
+          {
+            "Text": "24",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What is the greatest common divisor of 12 and 18?",
+        "Answers": [
+          {
+            "Text": "4",
+            "IsCorrect": false
+          },
+          {
+            "Text": "6",
+            "IsCorrect": true
+          },
+          {
+            "Text": "8",
+            "IsCorrect": false
+          },
+          {
+            "Text": "12",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What is the least common multiple of 4 and 5?",
+        "Answers": [
+          {
+            "Text": "10",
+            "IsCorrect": false
+          },
+          {
+            "Text": "15",
+            "IsCorrect": false
+          },
+          {
+            "Text": "20",
+            "IsCorrect": true
+          },
+          {
+            "Text": "25",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What is the area of a circle with radius 7 cm? (Use π ≈ 3.14)",
+        "Answers": [
+          {
+            "Text": "43.96 cm²",
+            "IsCorrect": true
+          },
+          {
+            "Text": "50.24 cm²",
+            "IsCorrect": false
+          },
+          {
+            "Text": "70 cm²",
+            "IsCorrect": false
+          },
+          {
+            "Text": "150.72 cm²",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What is 10² + 5²?",
+        "Answers": [
+          {
+            "Text": "100",
+            "IsCorrect": false
+          },
+          {
+            "Text": "125",
+            "IsCorrect": true
+          },
+          {
+            "Text": "150",
+            "IsCorrect": false
+          },
+          {
+            "Text": "125",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What is 7 + (5 × 3)?",
+        "Answers": [
+          {
+            "Text": "22",
+            "IsCorrect": true
+          },
+          {
+            "Text": "23",
+            "IsCorrect": false
+          },
+          {
+            "Text": "26",
+            "IsCorrect": false
+          },
+          {
+            "Text": "21",
+            "IsCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "QuizName": "History of Cambodia",
+    "Questions": [
+      {
+        "Text": "Who were the founding figures of the Khmer Empire?",
+        "Answers": [
+          {
+            "Text": "Jayavarman II",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Suryavarman I",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Angkor",
+            "IsCorrect": false
+          },
+          {
+            "Text": "Norodom Sihanouk",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "Which of these were major temples built by the Khmer Empire?",
+        "Answers": [
+          {
+            "Text": "Angkor Wat",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Bayon",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Ta Prohm",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Sihanoukville",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "Which country was Cambodia a protectorate of in the 19th and early 20th century?",
+        "Answers": [
+          {
+            "Text": "France",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Britain",
+            "IsCorrect": false
+          },
+          {
+            "Text": "Vietnam",
+            "IsCorrect": false
+          },
+          {
+            "Text": "Thailand",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What were the primary effects of the Khmer Rouge regime on Cambodia?",
+        "Answers": [
+          {
+            "Text": "Mass genocide",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Cultural destruction",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Economic growth",
+            "IsCorrect": false
+          },
+          {
+            "Text": "International diplomacy",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "Who was the leader of the Khmer Rouge?",
+        "Answers": [
+          {
+            "Text": "Pol Pot",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Lon Nol",
+            "IsCorrect": false
+          },
+          {
+            "Text": "Norodom Sihanouk",
+            "IsCorrect": false
+          },
+          {
+            "Text": "Hun Sen",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "Which of the following events occurred during the reign of King Norodom Sihanouk?",
+        "Answers": [
+          {
+            "Text": "Independence from France",
+            "IsCorrect": true
+          },
+          {
+            "Text": "The Khmer Rouge came to power",
+            "IsCorrect": true
+          },
+          {
+            "Text": "The Kingdom of Cambodia was restored",
+            "IsCorrect": true
+          },
+          {
+            "Text": "The Cambodian Civil War started",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "When did Cambodia gain independence from France?",
+        "Answers": [
+          {
+            "Text": "1953",
+            "IsCorrect": true
+          },
+          {
+            "Text": "1945",
+            "IsCorrect": false
+          },
+          {
+            "Text": "1970",
+            "IsCorrect": false
+          },
+          {
+            "Text": "1960",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What were the major impacts of the Cambodian Civil War?",
+        "Answers": [
+          {
+            "Text": "The rise of the Khmer Rouge",
+            "IsCorrect": true
+          },
+          {
+            "Text": "The fall of Phnom Penh",
+            "IsCorrect": true
+          },
+          {
+            "Text": "The formation of a communist government",
+            "IsCorrect": true
+          },
+          {
+            "Text": "The establishment of a monarchy",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "Which of these countries were involved in the Cambodian Civil War?",
+        "Answers": [
+          {
+            "Text": "Vietnam",
+            "IsCorrect": true
+          },
+          {
+            "Text": "United States",
+            "IsCorrect": true
+          },
+          {
+            "Text": "China",
+            "IsCorrect": true
+          },
+          {
+            "Text": "India",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "Which international organization helped Cambodia after the Khmer Rouge regime?",
+        "Answers": [
+          {
+            "Text": "United Nations",
+            "IsCorrect": true
+          },
+          {
+            "Text": "World Bank",
+            "IsCorrect": false
+          },
+          {
+            "Text": "ASEAN",
+            "IsCorrect": false
+          },
+          {
+            "Text": "International Red Cross",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What year did the Khmer Rouge take power in Cambodia?",
+        "Answers": [
+          {
+            "Text": "1975",
+            "IsCorrect": true
+          },
+          {
+            "Text": "1970",
+            "IsCorrect": false
+          },
+          {
+            "Text": "1980",
+            "IsCorrect": false
+          },
+          {
+            "Text": "1965",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "Which of the following were major cultural and historical sites in Cambodia?",
+        "Answers": [
+          {
+            "Text": "Angkor Wat",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Sihanoukville",
+            "IsCorrect": false
+          },
+          {
+            "Text": "Killing Fields",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Tonle Sap",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What was the purpose of the Khmer Rouge's 'Year Zero' ideology?",
+        "Answers": [
+          {
+            "Text": "To create a communist agrarian society",
+            "IsCorrect": true
+          },
+          {
+            "Text": "To promote industrialization",
+            "IsCorrect": false
+          },
+          {
+            "Text": "To establish a monarchy",
+            "IsCorrect": false
+          },
+          {
+            "Text": "To expand Cambodia's borders",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "Which event marked the beginning of the Cambodian Genocide?",
+        "Answers": [
+          {
+            "Text": "The Khmer Rouge taking power in 1975",
+            "IsCorrect": true
+          },
+          {
+            "Text": "The assassination of Lon Nol",
+            "IsCorrect": false
+          },
+          {
+            "Text": "The fall of Angkor Wat",
+            "IsCorrect": false
+          },
+          {
+            "Text": "The bombing of Phnom Penh",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What was the role of Norodom Sihanouk during the Khmer Rouge regime?",
+        "Answers": [
+          {
+            "Text": "He was forced into exile",
+            "IsCorrect": true
+          },
+          {
+            "Text": "He led the Khmer Rouge",
+            "IsCorrect": false
+          },
+          {
+            "Text": "He was executed",
+            "IsCorrect": false
+          },
+          {
+            "Text": "He formed a coalition with the Khmer Rouge",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "Who was the prime minister of Cambodia during the Cambodian Civil War?",
+        "Answers": [
+          {
+            "Text": "Lon Nol",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Pol Pot",
+            "IsCorrect": false
+          },
+          {
+            "Text": "Norodom Sihanouk",
+            "IsCorrect": false
+          },
+          {
+            "Text": "Hun Sen",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "Which of these were major results of the Cambodian genocide?",
+        "Answers": [
+          {
+            "Text": "The deaths of an estimated 1.7 million people",
+            "IsCorrect": true
+          },
+          {
+            "Text": "The destruction of cultural heritage",
+            "IsCorrect": true
+          },
+          {
+            "Text": "A surge in foreign investments",
+            "IsCorrect": false
+          },
+          {
+            "Text": "The development of new technological industries",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "Which countries were involved in the international efforts to bring Khmer Rouge leaders to trial?",
+        "Answers": [
+          {
+            "Text": "Cambodia",
+            "IsCorrect": true
+          },
+          {
+            "Text": "United States",
+            "IsCorrect": true
+          },
+          {
+            "Text": "France",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Japan",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What were the primary tactics used by the Khmer Rouge during their rule?",
+        "Answers": [
+          {
+            "Text": "Forced labor camps",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Mass executions",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Population relocation",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Diplomatic negotiations",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "Which year did the Vietnamese forces overthrow the Khmer Rouge?",
+        "Answers": [
+          {
+            "Text": "1979",
+            "IsCorrect": true
+          },
+          {
+            "Text": "1975",
+            "IsCorrect": false
+          },
+          {
+            "Text": "1985",
+            "IsCorrect": false
+          },
+          {
+            "Text": "1990",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "Which major river is crucial to Cambodia’s geography and economy?",
+        "Answers": [
+          {
+            "Text": "Mekong River",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Tonle Sap River",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Irrawaddy River",
+            "IsCorrect": false
+          },
+          {
+            "Text": "Yangtze River",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "What role did the United Nations play in Cambodia after the Khmer Rouge regime?",
+        "Answers": [
+          {
+            "Text": "Peacekeeping and supporting elections",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Promoting tourism",
+            "IsCorrect": false
+          },
+          {
+            "Text": "Forming military alliances",
+            "IsCorrect": false
+          },
+          {
+            "Text": "Supporting communist ideologies",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "Which of the following is a major cultural celebration in Cambodia?",
+        "Answers": [
+          {
+            "Text": "Cambodian New Year",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Songkran Festival",
+            "IsCorrect": false
+          },
+          {
+            "Text": "Lunar New Year",
+            "IsCorrect": false
+          },
+          {
+            "Text": "Diwali",
+            "IsCorrect": false
+          }
+        ]
+      }
+    ]
   }
+
 ]

@@ -21,13 +21,16 @@ namespace Task2Exam
         {
             Console.Clear();
 
-            Console.WriteLine("=======  Welcome " + currentUser.userName + " =======");
-            Console.WriteLine("1 ) Take Specific Quiz");
-            Console.WriteLine("2 ) Take Mixed Quiz");
-            Console.WriteLine("3 ) View the results of the previous quizzes");
-            Console.WriteLine("4 ) View top 20");
-            Console.WriteLine("5 ) Edit Profile");
-            Console.WriteLine("6 ) Log Out");
+            Console.WriteLine("=========================== WELCOME [ {0} ] ===========================\n",currentUser.userName);
+
+            Console.WriteLine("1 ) Take Specific Quiz\n");
+            Console.WriteLine("2 ) Take Mixed Quiz\n");
+            Console.WriteLine("3 ) View the results of the previous quizzes\n");
+            Console.WriteLine("4 ) View top 20\n");
+            Console.WriteLine("5 ) Edit Profile\n");
+            Console.WriteLine("6 ) Log Out\n");
+            Console.WriteLine("=======================================================================");
+
             Console.Write("Enter Opt : ");
             string opt = Console.ReadLine();
             switch (opt)
@@ -59,9 +62,9 @@ namespace Task2Exam
         public void ViewTop()
         {
             Console.Clear();
-            Console.WriteLine("======== View Top ========");
-            Console.WriteLine("1 ) View top");
-            Console.WriteLine("2 ) Back");
+            Console.WriteLine("=========================== VIEW TOP ===========================\n");
+            Console.WriteLine("1 ) View top\n");
+            Console.WriteLine("2 ) Back\n");
             Console.WriteLine("Enter Opt : ");
             string opt = Console.ReadLine();
             switch(opt)
@@ -78,7 +81,7 @@ namespace Task2Exam
             if (decide == "yes")
             {
                 Console.Clear() ;
-                Console.WriteLine("======== Mixed Quiz ========");
+                Console.WriteLine("=========================== Mixed Quiz ===========================\n");
                 TakeQuiz takeQuiz = new TakeQuiz(currentUser.userName);
                 takeQuiz.StartMixedQuiz();
                 Console.ReadLine();
@@ -92,8 +95,8 @@ namespace Task2Exam
         public void ViewTopForAllCataeroies()
         {
             Console.Clear();
-            Console.WriteLine("======== View Top ========");
-            
+            Console.WriteLine("=========================== View Top ===========================\n");
+
             TakeQuiz takeQuiz = new TakeQuiz(currentUser);
             QuizControl quizControl = new QuizControl();
             quizControl.ViewCategories();
@@ -110,10 +113,14 @@ namespace Task2Exam
         public void EditProfile()
         {
             Console.Clear();
-            Console.WriteLine("======== Edit Profile ========");
-            Console.WriteLine("1 ) Change Password");
-            Console.WriteLine("2 ) Change Date Of Birth");
-            Console.WriteLine("3 ) Back");
+
+            Console.WriteLine("=========================== Edit Profile for [ {0} ] ===========================\n", currentUser.userName);
+
+            Console.WriteLine("1 ) Change Password\n");
+            Console.WriteLine("2 ) Change Date Of Birth\n");
+            Console.WriteLine("3 ) Back\n");
+            Console.WriteLine("================================================================================\n");
+
             Console.Write("Enter Opt : ");
             string opt =Console.ReadLine();
             switch (opt)
@@ -128,7 +135,7 @@ namespace Task2Exam
         public void ChangePassword()
         {
             Console.Clear();
-            Console.WriteLine("======== Change Password ========");
+            Console.WriteLine("=========================== Change Password for [ {0} ] ===========================\n", currentUser.userName);
             Console.WriteLine("Enter New Password : ");
             string password = Console.ReadLine();
             currentUser.ChangePassword(currentUser.userName,password);
@@ -137,7 +144,7 @@ namespace Task2Exam
         public void ChangeDOB()
         {
             Console.Clear();
-            Console.WriteLine("======== Change DOB ========");
+            Console.WriteLine("=========================== Change DOB [ {0} ] ===========================\n", currentUser.userName);
             Console.WriteLine("Enter New Date of birth: ");
             string DOB = Console.ReadLine();
             currentUser.ChangeDOB(currentUser.userName,DOB);
@@ -146,7 +153,8 @@ namespace Task2Exam
         public void ViewPreviousQuizzes()
         {
             Console.Clear();
-            Console.WriteLine("======== View Previous Quizzes Of {0} ========",currentUser.userName );
+            Console.WriteLine("=========================== Previous Quiz Result [ {0} ] ===========================\n", currentUser.userName);
+
             TakeQuiz takeQuiz = new TakeQuiz(currentUser.userName);
             takeQuiz.ViewPreviousQuiz();
             Console.ReadLine();
@@ -154,10 +162,11 @@ namespace Task2Exam
         }
         public void TakeQuizz()
         {
-           
-                Console.Clear();
+            Console.Clear();
+            Console.WriteLine("=========================== TAKE QUIZ ===========================\n");
                 TakeQuiz takeQuiz = new TakeQuiz(currentUser.userName);
-                takeQuiz.StartSpecificQuiz();
+     
+            takeQuiz.StartSpecificQuiz();
                 Console.ReadLine();
                 FirstMenu();
            

@@ -109,6 +109,42 @@ namespace Task2Exam
                 }
             }
         }
+        public void DeleteUser(string userName)
+        {
+            IOManager iOManager = new IOManager();
+            List<User> users = iOManager.ReadAllUsers();
 
+            User userToDelete = users.FirstOrDefault(u => u.userName.Equals(userName, StringComparison.OrdinalIgnoreCase));
+            if (userToDelete != null)
+            {
+                users.Remove(userToDelete);
+                iOManager.DeleteUserFile(userName); 
+                Console.WriteLine("User {0} has been deleted successfully.",userName);
+            }
+            else
+            {
+                Console.WriteLine("User not found.");
+            }
+        }
+        public void Display()
+        {
+            Console.WriteLine("Username : {0} ", userName);
+        }
+        public void DisplayAllUsers()
+        {
+            IOManager iOManager = new IOManager();
+            List<User> users = iOManager.ReadAllUsers();
+            if (users.Count == 0)
+            {
+                Console.WriteLine("No users found.");
+                return;
+            }
+            foreach (var user in users)
+            {
+                user.Display();
+                
+            }
+            Console.WriteLine("Total user : {0} ", users.Count);
+        }
     }
 }

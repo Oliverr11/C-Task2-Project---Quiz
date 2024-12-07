@@ -8,3 +8,13 @@ C:\Users\ASUS\source\repos\Task2Exam\bin\Debug\Newtonsoft.Json.xml
 C:\Users\ASUS\source\repos\Task2Exam\obj\Debug\Task2Exam.csproj.Up2Date
 C:\Users\ASUS\source\repos\Task2Exam\obj\Debug\Task2Exam.exe
 C:\Users\ASUS\source\repos\Task2Exam\obj\Debug\Task2Exam.pdb
+C:\Users\ASUS\Desktop\Test GitHub\C++ OOP M15 Project\C-Task2-Project---Quiz\obj\Debug\Task2Exam.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Test GitHub\C++ OOP M15 Project\C-Task2-Project---Quiz\obj\Debug\Task2Exam.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Test GitHub\C++ OOP M15 Project\C-Task2-Project---Quiz\obj\Debug\Task2Exam.exe
+C:\Users\ASUS\Desktop\Test GitHub\C++ OOP M15 Project\C-Task2-Project---Quiz\obj\Debug\Task2Exam.pdb
+C:\Users\ASUS\Desktop\Test GitHub\C++ OOP M15 Project\C-Task2-Project---Quiz\bin\Debug\Task2Exam.exe.config
+C:\Users\ASUS\Desktop\Test GitHub\C++ OOP M15 Project\C-Task2-Project---Quiz\bin\Debug\Task2Exam.exe
+C:\Users\ASUS\Desktop\Test GitHub\C++ OOP M15 Project\C-Task2-Project---Quiz\bin\Debug\Task2Exam.pdb
+C:\Users\ASUS\Desktop\Test GitHub\C++ OOP M15 Project\C-Task2-Project---Quiz\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ASUS\Desktop\Test GitHub\C++ OOP M15 Project\C-Task2-Project---Quiz\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ASUS\Desktop\Test GitHub\C++ OOP M15 Project\C-Task2-Project---Quiz\obj\Debug\Task2Exam.csproj.Up2Date
